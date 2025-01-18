@@ -9,16 +9,26 @@ html {
   font-weight: 400;
   font-style: normal;
 }
-body {
-  margin: 0 auto;
-  padding: 0;
-}
+/* body { */
+/*   margin: 0 auto; */
+/*   padding: 0; */
+/* } */
+
 img {
   width: 100%;
 }
 /*shared styles*/
 .df {
   display: flex;
+}
+.jcc {
+  justify-content: center;
+}
+.aic {
+  align-items: center;
+}
+.tac {
+  text-align: center;
 }
 .text-primary {
   color: #ff900e;
@@ -33,7 +43,7 @@ img {
 }
 .btn-primary {
   background-color: #ff900e;
-  border-radius: 5px;
+  border-radius: 8px;
   color: #ffffff;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px 25px;
@@ -52,10 +62,19 @@ img {
   margin: 0 auto;
 }
 .nav-title {
-  font-size: 2.96rem;
+  font-size: 2.1rem;
+  font-weight: 700;
 }
+
+.banner-content {
+  max-width: 862px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .banner-title {
-  font-size: 4rem;
+  font-size: 2.9rem;
 }
 .menu-item {
   list-style: none;
@@ -72,4 +91,77 @@ img {
 .banner {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+/*w: team  section  */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.teams {
+  margin-top: 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.team-text {
+  max-width: 537px;
+}
+.team-title {
+  font-size: 2.3rem;
+}
+/*w:  fact section design */
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fact-card {
+  border: 1px solid gold;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.logo {
+  width: 56.76px;
+}
+.section-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+/* w: enjoy features section design */
+.feature-text-container {
+  max-width: 32rem;
+}
+.feature-item {
+  border-radius: 8px;
+  margin-bottom: 19px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+}
+.feature-item h2 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.feature-item p {
+  font-size: 0.7rem;
+  color: #727272;
+}
+.feature-title {
+  border-left: 5px solid gold;
+  padding-left: 10px;
+  font-size: 1.9rem;
 }

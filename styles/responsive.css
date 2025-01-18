@@ -1,0 +1,102 @@
+/*w: responsiveness */
+@media (max-width: 992px) {
+  .teams {
+    flex-direction: column;
+  }
+  .facts-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 39px;
+  }
+  .section-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  .feture-section {
+    flex-direction: column;
+  }
+  .gaurantee {
+    margin: 0 !important;
+    padding: 20px 25px !important;
+  }
+}
+
+.section-item img {
+  max-width: 180px;
+  max-height: 180px;
+  filter: grayscale(100%);
+}
+@media (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .banner-title {
+    font-size: 1.9rem;
+  }
+
+  /*w:team section responsiveness */
+  .teams {
+    flex-direction: column;
+  }
+  .team-container {
+    grid-template-columns: 1fr;
+  }
+  .team-text {
+    text-align: center;
+  }
+
+  /*w:fact section design */
+  .facts-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 39px;
+  }
+
+  .section-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 2.2rem;
+    align-items: center;
+    margin-top: 1.9rem;
+  }
+  /*w: enjoy feature section */
+  .feture-section {
+    flex-direction: column;
+  }
+
+  .gaurantee {
+    margin: 0 !important;
+    /* padding: 20px 30px !important; */
+  }
+}
+
+@media (max-width: 330px) {
+  .nav-title {
+    font-size: 1.5rem;
+  }
+  .menu-item {
+    margin-right: 20px;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  body {
+    margin: 0;
+  }
+  .btn-primary {
+    background-color: #ff900e;
+    border-radius: 8px;
+    color: #ffffff;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+  }
+  .banner-content p {
+    font-size: 0.85rem;
+  }
+}
