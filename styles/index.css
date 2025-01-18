@@ -165,3 +165,17 @@ main {
   padding-left: 10px;
   font-size: 1.9rem;
 }
+
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2rem;
+  margin-top: 130px;
+  text-align: center;
+
+  /* padding: 2rem 25.62rem; */
+}
